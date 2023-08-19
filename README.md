@@ -1,5 +1,5 @@
 # Portfolio Petrusev Georgii for QA Engineer
-### About
+## About
 Меня зовут Петрусев Георгий Дмитриевич, я Junior QA Engineer с опытом работы в различных областях информационных технологий. Мой профессиональный путь начался с обучения в области компьютерной техники, которое закрепилось бакалаврской степенью в менеджменте и маркетинге. В 2023 году я успешно прошел обучение в SkyPro по специальности QA Engineer.
 
 Я имею обширный опыт работы в области системного администрирования и сопровождения информационных систем. Мои обязанности включали администрирование штаба компьютеров, управление базами данных на MS SQL Server, а также работу с прикладным программным обеспечением, включая ArcMap.
@@ -59,3 +59,11 @@ Postman |
 Curl, PS, Bash |
 DevTools |
 PostgreSQL
+
+## Contact Information
+Email: Crobb4all@gmail.com
+LinkedIn: www.linkedin.com/in/georgiy-petrusev-751b8b23b
+
+## Projects & Work
+Course Work: https://petrusev-qa-bugreport.atlassian.net/l/cp/02see0kt
+Work for invite to job (cases): https://docs.google.com/spreadsheets/d/1tnbsh_SKyTlHI5CSo-_PeS6Sge-H5k2GIWa0Lo4SKmE/edit?usp=sharing
