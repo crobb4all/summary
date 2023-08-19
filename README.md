@@ -61,9 +61,9 @@ DevTools |
 PostgreSQL
 
 ## Contact Information
-Email: Crobb4all@gmail.com
-LinkedIn: www.linkedin.com/in/georgiy-petrusev-751b8b23b
+###### Email: Crobb4all@gmail.com
+###### LinkedIn: www.linkedin.com/in/georgiy-petrusev-751b8b23b
 
 ## Projects & Work
-Course Work: https://petrusev-qa-bugreport.atlassian.net/l/cp/02see0kt
-Work for invite to job (cases): https://docs.google.com/spreadsheets/d/1tnbsh_SKyTlHI5CSo-_PeS6Sge-H5k2GIWa0Lo4SKmE/edit?usp=sharing
+###### Course Work: https://petrusev-qa-bugreport.atlassian.net/l/cp/02see0kt
+###### Work for invite to job (cases): https://docs.google.com/spreadsheets/d/1tnbsh_SKyTlHI5CSo-_PeS6Sge-H5k2GIWa0Lo4SKmE/edit?usp=sharing
