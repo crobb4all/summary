@@ -1,0 +1,859 @@
+{
+	"id": "a62d344e-b01d-43ac-97dc-29b5199ef251",
+	"name": "CourseWork",
+	"timestamp": "2023-06-30T18:49:16.315Z",
+	"collection_id": "27308506-a626171f-9b78-417a-9647-fd383eea4eee",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 27,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-06-30T18:49:06.805Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f079df06-954c-4c6e-a862-d1ce91cf4a14",
+			"name": "Создание ЛС в прошлом",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 629,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				629
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "832e8467-94f8-43db-bdbd-ca6d0ad3387b",
+			"name": "Удаление ЛС",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/removePersonal",
+			"time": 287,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				287
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0556efb3-7669-4e7d-80b2-1ad0bc323aed",
+			"name": "Создание ЛС с валидными данными в будущем",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 260,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				260
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "65adbff3-fe45-4c55-af52-8c8b539c19b8",
+			"name": "Удаление ЛС",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/removePersonal",
+			"time": 280,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				280
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "929114fc-9a88-4a5f-9542-9086a932396e",
+			"name": "Создание ЛС с валидными данными в настоящем",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 228,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				228
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d84512af-ce5a-4b6d-b75c-d22fcaa3b356",
+			"name": "Удаление ЛС",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/removePersonal",
+			"time": 224,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				224
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a5dfda9c-2f46-453b-8a0f-843fcf671266",
+			"name": "Создание ЛС со ссылкой в описании",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 241,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				241
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "47d9f72f-2803-4673-abf7-1142688e03f5",
+			"name": "Удаление ЛС",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/removePersonal",
+			"time": 217,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				217
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "25feac7a-e949-4419-b14f-19e05dc0374e",
+			"name": "Создание ЛС без названия",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 140,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				140
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d49df3f8-5ffe-4641-a831-019ea0d381b0",
+			"name": "Создание ЛС с названием более 40 символов",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 141,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				141
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0a693fa8-121c-40ff-a296-6a58e4a87435",
+			"name": "Создание ЛС с названием более 40 символов Copy",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 142,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				142
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3baafb9b-8307-46b1-b123-bdede8b69d13",
+			"name": "Создание ЛС",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 226,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				226
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4ff13a2f-e6d8-4b0b-b678-9aeb0d5a70a8",
+			"name": "Редактирование имени и описания ЛС",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/updatePersonal",
+			"time": 294,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				294
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "317a640e-475e-40fc-997c-92d8952eb37f",
+			"name": "Удаление события",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/removePersonal",
+			"time": 221,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				221
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5ff22d2b-a31e-45af-b336-3edde5505af0",
+			"name": "Создание ЛС",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 219,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				219
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0a75cb58-3edd-40be-8ebc-39486fb90605",
+			"name": "Редактирование даты события",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/updatePersonal",
+			"time": 324,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				324
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "801db9ae-cb02-440d-b47f-2081afa4026b",
+			"name": "Удаление ЛС",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/removePersonal",
+			"time": 237,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				237
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f2cfb04a-6dfa-45ed-8add-5ede439cfb96",
+			"name": "Создание ЛС",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 222,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				222
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1f9faa6d-16b5-459b-83a7-304f0de34ee4",
+			"name": "Редактирование времени события",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/updatePersonal",
+			"time": 320,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				320
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "afb199a2-d467-48b9-89b1-96f0dde77def",
+			"name": "Удаление ЛС",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/removePersonal",
+			"time": 223,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				223
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0339537f-3aa8-4073-bf56-6ef31e642921",
+			"name": "Создание ЛС",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 221,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				221
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "979740ff-6682-4528-8e49-b46743016299",
+			"name": "Редактирование даты окончания события, до его начала",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/updatePersonal",
+			"time": 208,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				208
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b7a624e3-a339-4c3f-a6c1-5f8afc52f4ca",
+			"name": "Удаление ЛС",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/removePersonal",
+			"time": 217,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				217
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8bb19fbe-242f-461b-a80b-89cb0cf247cb",
+			"name": "Создание ЛС",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/createPersonal",
+			"time": 235,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				235
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cb3c9cb6-cb7e-4fa3-a18a-c8a0ae2bfb36",
+			"name": "Удаление события",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/removePersonal",
+			"time": 224,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				224
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "08d61da5-7e87-44cd-ac75-29569a8097b8",
+			"name": "Удаление несуществующего события",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/removePersonal",
+			"time": 171,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				171
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3394fbcf-531b-434b-8723-42ac9a1b3744",
+			"name": "Получение списка событий",
+			"url": "https://api-teachers.skyeng.ru/v2/schedule/events",
+			"time": 500,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				500
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 6851,
+	"collection": {
+		"requests": [
+			{
+				"id": "f079df06-954c-4c6e-a862-d1ce91cf4a14",
+				"method": "POST"
+			},
+			{
+				"id": "832e8467-94f8-43db-bdbd-ca6d0ad3387b",
+				"method": "POST"
+			},
+			{
+				"id": "0556efb3-7669-4e7d-80b2-1ad0bc323aed",
+				"method": "POST"
+			},
+			{
+				"id": "65adbff3-fe45-4c55-af52-8c8b539c19b8",
+				"method": "POST"
+			},
+			{
+				"id": "929114fc-9a88-4a5f-9542-9086a932396e",
+				"method": "POST"
+			},
+			{
+				"id": "d84512af-ce5a-4b6d-b75c-d22fcaa3b356",
+				"method": "POST"
+			},
+			{
+				"id": "a5dfda9c-2f46-453b-8a0f-843fcf671266",
+				"method": "POST"
+			},
+			{
+				"id": "47d9f72f-2803-4673-abf7-1142688e03f5",
+				"method": "POST"
+			},
+			{
+				"id": "25feac7a-e949-4419-b14f-19e05dc0374e",
+				"method": "POST"
+			},
+			{
+				"id": "d49df3f8-5ffe-4641-a831-019ea0d381b0",
+				"method": "POST"
+			},
+			{
+				"id": "0a693fa8-121c-40ff-a296-6a58e4a87435",
+				"method": "POST"
+			},
+			{
+				"id": "3baafb9b-8307-46b1-b123-bdede8b69d13",
+				"method": "POST"
+			},
+			{
+				"id": "4ff13a2f-e6d8-4b0b-b678-9aeb0d5a70a8",
+				"method": "POST"
+			},
+			{
+				"id": "317a640e-475e-40fc-997c-92d8952eb37f",
+				"method": "POST"
+			},
+			{
+				"id": "5ff22d2b-a31e-45af-b336-3edde5505af0",
+				"method": "POST"
+			},
+			{
+				"id": "0a75cb58-3edd-40be-8ebc-39486fb90605",
+				"method": "POST"
+			},
+			{
+				"id": "801db9ae-cb02-440d-b47f-2081afa4026b",
+				"method": "POST"
+			},
+			{
+				"id": "f2cfb04a-6dfa-45ed-8add-5ede439cfb96",
+				"method": "POST"
+			},
+			{
+				"id": "1f9faa6d-16b5-459b-83a7-304f0de34ee4",
+				"method": "POST"
+			},
+			{
+				"id": "afb199a2-d467-48b9-89b1-96f0dde77def",
+				"method": "POST"
+			},
+			{
+				"id": "0339537f-3aa8-4073-bf56-6ef31e642921",
+				"method": "POST"
+			},
+			{
+				"id": "979740ff-6682-4528-8e49-b46743016299",
+				"method": "POST"
+			},
+			{
+				"id": "b7a624e3-a339-4c3f-a6c1-5f8afc52f4ca",
+				"method": "POST"
+			},
+			{
+				"id": "8bb19fbe-242f-461b-a80b-89cb0cf247cb",
+				"method": "POST"
+			},
+			{
+				"id": "cb3c9cb6-cb7e-4fa3-a18a-c8a0ae2bfb36",
+				"method": "POST"
+			},
+			{
+				"id": "08d61da5-7e87-44cd-ac75-29569a8097b8",
+				"method": "POST"
+			},
+			{
+				"id": "3394fbcf-531b-434b-8723-42ac9a1b3744",
+				"method": "POST"
+			}
+		]
+	}
+}
