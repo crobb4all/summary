@@ -6,9 +6,6 @@
 ``MySQL``, ``PostgreSQL``, ``SQL Server``, ``Qase.io``, ``Sitechko``, ``Jira``, ``Confluence``, ``Notion``, ``Miro``, ``Postman``, ``SoapUI``, ``cURL``, ``PowerShell``, ``Mockoon``, ``Chrome DevTools``, ``JMeter``.
 
 ## Projects & Work
-###### Course Work: https://petrusev-qa-bugreport.atlassian.net/l/cp/02see0kt
-###### Work for invite to job (cases): https://docs.google.com/spreadsheets/d/1tnbsh_SKyTlHI5CSo-_PeS6Sge-H5k2GIWa0Lo4SKmE/edit?usp=sharing
-
 <p> Проект 1: Тест веб-приложения "Личные события" для учителей от Skyeng</p>
 <p>
    Протестировать новый функционал рездела "Календать" в веб-приложение для учителей Skyeng.
@@ -39,6 +36,10 @@
 
 
 <br> 
+
+
+###### Work for invite to job (cases): https://docs.google.com/spreadsheets/d/1tnbsh_SKyTlHI5CSo-_PeS6Sge-H5k2GIWa0Lo4SKmE/edit?usp=sharing
+
 
 <p> Проект 2: тест кабинета учителя в приложении Skyeng</p>
 <p>Что нужно было сделать:<p>
