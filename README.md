@@ -1,3 +1,7 @@
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/owaW2hfLv4F7wyFeyM/giphy.gif" width="100"/>
+</div>
+
 # Portfolio Petrusev Georgii for QA Engineer
 ## About
 Меня зовут ``Петрусев Георгий``, я ``Junior QA Engineer`` с опытом работы в различных областях информационных технологий. В этом репозитории вы сможете найти некоторые мои работы которые я выполнял во время обучения и практики.
