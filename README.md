@@ -29,8 +29,7 @@
 - Составление декомпозиций: ``Miro``;
 - Тестирование API: ``Postman``, ``SoapUI``, ``cURL``, ``PowerShell``, ``Mockoon``;
 - Панель разработчика - ``DevTools``;
-- Инструмент для нагрузочного тестирования: ``JMeter``;
-Charles |
+- Инструмент для нагрузочного тестирования: ``JMeter``.
 
 ## Contact Information
 ###### Email: Crobb4all@gmail.com
