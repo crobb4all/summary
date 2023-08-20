@@ -23,17 +23,14 @@
 
 ## Навыки и технологии:
 - Работа с БД и СУБД: ``SQL``, ``PostgreSQL``, ``SQL Server``;
-- Системы управления тустовыми случаями: ``Qase.io``, ``Sitechko``;
+- Системы управления тестовыми случаями: ``Qase.io``, ``Sitechko``;
 - BTS: ``Jira``;
 - Ведение документации в: ``Confluence``, ``Notion``;
-Miro |
-Jmeter |
+- Составление декомпозиций: ``Miro``;
+- Тестирование API: ``Postman``, ``SoapUI``, ``cURL``, ``PowerShell``, ``Mockoon``;
+- Панель разработчика - ``DevTools``;
+- Инструмент для нагрузочного тестирования: ``JMeter``;
 Charles |
-SoapUI |
-Postman |
-Curl, PS, Bash |
-DevTools |
-PostgreSQL
 
 ## Contact Information
 ###### Email: Crobb4all@gmail.com
