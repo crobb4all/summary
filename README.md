@@ -10,7 +10,7 @@
 ``MySQL``, ``PostgreSQL``, ``SQL Server``, ``Qase.io``, ``Sitechko``, ``Jira``, ``Confluence``, ``Notion``, ``Miro``, ``Postman``, ``SoapUI``, ``cURL``, ``PowerShell``, ``Mockoon``, ``Chrome DevTools``, ``JMeter``.
 
 ## Projects & Work
-<p> Проект 1: Тест веб-приложения "Личные события" для учителей от Skyeng</p>
+<p> Проект 1: Тест веб-приложения для учителей от Skyeng</p>
 <p>
    Протестировать новый функционал рездела "Календать" в веб-приложение для учителей Skyeng.
 <p>
