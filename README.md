@@ -76,7 +76,8 @@
 
 Ознакомился с ТЗ. Провёл исследовательское тестирование веб-приложения. Составил документацию и тест-план. Далее составил тест-кейсы и чек-листы проверок для обоих версий приложения. Провёл тест-ран. Выявленные баги зафиксировал. Написал отчёт о тестировании и заключение.
 
->  <a href="https://github.com/crobb4all/summary/tree/c8c7120596aed3539da62234135fb7dd6cbb8182/diplom">Ссылка на с проектом на Git</a>
+>  <a href="https://github.com/crobb4all/summary/tree/c8c7120596aed3539da62234135fb7dd6cbb8182/diplom">Ссылка на папку проекта в Git</a>
+>  <a href="https://petrusev-qa-bugreport.atlassian.net/l/cp/bRrhvavD">Ссылка на Confluence проекта</a>
 
  <p>Выводы:<p>
 <ol>
