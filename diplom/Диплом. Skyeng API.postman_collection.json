@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "e93d5e45-db11-40ff-8c71-3da2afde131c",
+		"name": "Диплом. Skyeng API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27308506"
+	},
+	"item": [
+		{
+			"name": "Позитивные",
+			"item": [
+				{
+					"name": "Отображение информации по видеоурокам",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "_seid=8754bcb486d24390909f777f48412f55; _setz=Asia/Tbilisi; _gcl_au=1.1.1617913875.1700138531; _ym_uid=1700138531124324407; _ym_d=1700138531; _ga=GA1.1.192258312.1700138510; __ddg1_=PPw4tAmpPEfZQrlYnuZO; skyeng_mData=dadxpg68ec95d8xv5cc4FwAThUZgNYUA; tmr_lvid=2c813392a108f7c7e6594d6f378eadd3; tmr_lvidTS=1700138589619; advcake_session_id=f9bdea25-03c6-cf2a-18b0-39388ce7e718; __exponea_etc__=aa9c60a6-483a-4c3a-8f10-72c9f5434e53; _tt_enable_cookie=1; _ttp=3fgdKkCntZWDIzAOpx0y_mIlE-U; _ga_03EGKN82H3=GS1.1.1700138531.1.1.1700138612.45.0.0; _ga_5DWC4JK87M=GS1.1.1700138531.1.1.1700138612.50.0.0; global_id=YWVzLTEyOC1jYmM%3D.2P3NBR2W25nbJqAET5m6HQ%3D%3D.Ue%2BfvDUS5ibn962%2Bu7ocvQh41HBS%2BRnSbvKgbwFAtd0%3D; session_global=nj2av7m3373el90tsqhspfcgta; media.audioOutputHash=7dc18c43d221e5fe5a472fe835d00c9f; media.videoInputHash=dbfe766339a2bd1bb5cd63a4381d70b0; amplitude_id_ef9dd375ed875487462b31c2bbac3d1fskyeng.ru=eyJkZXZpY2VJZCI6ImUxOTYyYWFhLThkYTEtNGJhYS1hMGUxLTBiMzJjY2Y0OTNmMlIiLCJ1c2VySWQiOiIxNDg5NDI1MCIsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTcwMDU0MzM3NDE3NiwibGFzdEV2ZW50VGltZSI6MTcwMDU0MzM3NDE3NiwiZXZlbnRJZCI6MCwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjB9; media.audioInputHash=89f8e1df14fb97376da543502407dbcf; token_global=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1c2VySWQiOjE0ODk0MjUwLCJpZGVudGl0eSI6InRlc3QudHN0MzQ1QHNreWVuZy5ydSIsImlkZW50aXR5TG9naW4iOm51bGwsImlkZW50aXR5RW1haWwiOiJ0ZXN0LnRzdDM0NUBza3llbmcucnUiLCJpZGVudGl0eVBob25lIjoiKzc5MTY1MDAyMjU1IiwibmFtZSI6Ilx1MDQxMFx1MDQzYlx1MDQzNVx1MDQzYVx1MDQ0MVx1MDQzNVx1MDQzOSIsInN1cm5hbWUiOiJ0ZXN0IiwiZW1haWwiOiJ0ZXN0LnRzdDM0NUBza3llbmcucnUiLCJ1aUxhbmd1YWdlIjoicnUiLCJsb2NhbGUiOiJydSIsInNlcnZpY2VMb2NhbGUiOm51bGwsInVhcyI6MzAsImp3dFR5cGUiOjEsImp0aSI6IjlVV1BqMlN1WWFpQkF2QjZST1pLODF5VVR6WktvUEJHIiwiYnJhbmQiOm51bGwsImV4cCI6MTcwMTAxMTMwNiwiYmlydGhkYXkiOiIyMDA2LTEwLTEwIiwiYUlzU3Ryb25nIjp0cnVlLCJhVHlwZSI6IlVTRVJOQU1FX1BBU1NXT1JEIiwiYVRpbWUiOjE3MDAxMzg2MzYsInJvbGVzIjpbIlJPTEVfVEVBQ0hFUl9DQU5ESURBVEUiLCJST0xFX1RFQUNIRVJfQ0FORElEQVRFX0JBU0VfQUNDRVNTIiwiUk9MRV9UVENfVVNBR0UiLCJST0xFX1ZJTUJPWF9URUFDSEVSX1VTQUdFIiwiUk9MRV9URUFDSEVSIiwiUk9MRV9DUk0yX1RFQUNIRVJfQUNDRVNTIiwiUk9MRV9NQVRIX1RFQUNIRVIiLCJST0xFX01BVEhfQ09OVEVOVF9USEVNRV9WSUVXIl19.EdkosOgErkOZ0EXKjVlAtkyEWTCmwSawfl7gtegmjDbNtMAB6eA_0fHyH9IBgA2VWfrvrBdlnkhZGQK5KrQMdembGVXXPR9YOWwrNQYslRZ4n0aRWwUbkf3GWhlJCivWwy9pRKw_WBpGIpT318vYbWZJk8fFO3nyqjjZOR39aUTT08wyhSTb8K6--PkuDxezRF3JW_H7r4O77BjJOS-UqBhokEeXZTIE6WAl_1HWwZosLLaA_BCsHLUBZLs_dSWgbHcrX8-Wj9bu-d10fhM_JYAdgNV6y3JcNNPh33GUkBQYzGTLwaqFOLyaGkzhEMeTratdSUrnh_kO3Tfi2CTzn9EJwSO_3XL16yboQ50h_4PtWvGBnz9NBKsKckp713O2gajGyP566Kfeu5wszFYogN8NO6VS1zHtH_YdwxT8iRQOoGsPzd52wBi8bBy14zKulM_5AqY6THtG_2sVT9A05oRXPNeaA23or5DnM-IlgHPuaod1h_1aM34Xywy_N3jMx7qCqx9Yrp2ywov_JSKRV3NzeZyBLZjE4BSW97yVtAsYYQAq11SbKdaVW86nKaf5qJkiSAjfQHhK-DoSE7ZV3zyiHWqimedUdlcb6FVLY7ohG0RyJWE9r0tEbh-Iw_r2A2Z_OtPVLvcAp0PWdpU8ftkYybVoOAHrVWsVxzhd3Us; _ym_isad=1; _ym_visorc=b; _ga_SR964WVJCV=GS1.1.1701005671.11.1.1701005767.0.0.0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api-vimbox.skyeng.ru/api/v1/compilations/showcase",
+							"protocol": "https",
+							"host": [
+								"api-vimbox",
+								"skyeng",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"compilations",
+								"showcase"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Негативные",
+			"item": [
+				{
+					"name": "Без отправления токена",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 401\", function () {\r",
+									"    pm.response.to.have.status(401);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api-vimbox.skyeng.ru/api/v1/compilations/showcase",
+							"protocol": "https",
+							"host": [
+								"api-vimbox",
+								"skyeng",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"compilations",
+								"showcase"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Невалидный токен",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 401\", function () {\r",
+									"    pm.response.to.have.status(401);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "_seid=8754bcb486d24390909f777f48412f55; _setz=Asia/Tbilisi; _gcl_au=1.1.1617913875.1700138531; _ym_uid=1700138531124324407; _ym_d=1700138531; _ga=GA1.1.192258312.1700138510; __ddg1_=PPw4tAmpPEfZQrlYnuZO; skyeng_mData=dadxpg68ec95d8xv5cc4FwAThUZgNYUA; tmr_lvid=2c813392a108f7c7e6594d6f378eadd3; tmr_lvidTS=1700138589619; advcake_session_id=f9bdea25-03c6-cf2a-18b0-39388ce7e718; __exponea_etc__=aa9c60a6-483a-4c3a-8f10-72c9f5434e53; _tt_enable_cookie=1; _ttp=3fgdKkCntZWDIzAOpx0y_mIlE-U; _ga_03EGKN82H3=GS1.1.1700138531.1.1.1700138612.45.0.0; _ga_5DWC4JK87M=GS1.1.1700138531.1.1.1700138612.50.0.0; global_id=YWVzLTEyOC1jYmM%3D.2P3NBR2W25nbJqAET5m6HQ%3D%3D.Ue%2BfvDUS5ibn962%2Bu7ocvQh41HBS%2BRnSbvKgbwFAtd0%3D; session_global=nj2av7m3373el90tsqhspfcgta; media.audioOutputHash=7dc18c43d221e5fe5a472fe835d00c9f; media.videoInputHash=dbfe766339a2bd1bb5cd63a4381d70b0; amplitude_id_ef9dd375ed875487462b31c2bbac3d1fskyeng.ru=eyJkZXZpY2VJZCI6ImUxOTYyYWFhLThkYTEtNGJhYS1hMGUxLTBiMzJjY2Y0OTNmMlIiLCJ1c2VySWQiOiIxNDg5NDI1MCIsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTcwMDU0MzM3NDE3NiwibGFzdEV2ZW50VGltZSI6MTcwMDU0MzM3NDE3NiwiZXZlbnRJZCI6MCwiaWRlbnRpZnlJZCI6MCwic2VxdWVuY2VOdW1iZXIiOjB9; media.audioInputHash=89f8e1df14fb97376da543502407dbcf; token_global=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1c2VySWQiOjE0ODk0MjUwLCJpZGVudGl0eSI6InRlc3QudHN0MzQ1QHNreWVuZy5ydSIsImlkZW50aXR5TG9naW4iOm51bGwsImlkZW50aXR5RW1haWwiOiJ0ZXN0LnRzdDM0NUBzaa3llbmcucnUiLCJpZGVudGl0eVBob25lIjoiKzc5MTY1MDAyMjU1IiwibmFtZSI6Ilx1MDQxMFx1MDQzYlx1MDQzNVx1MDQzYVx1MDQ0MVx1MDQzNVx1MDQzOSIsInN1cm5hbWUiOiJ0ZXN0IiwiZW1haWwiOiJ0ZXN0LnRzdDM0NUBza3llbmcucnUiLCJ1aUxhbmd1YWdlIjoicnUiLCJsb2NhbGUiOiJydSIsInNlcnZpY2VMb2NhbGUiOm51bGwsInVhcyI6MzAsImp3dFR5cGUiOjEsImp0aSI6IjlVV1BqMlN1WWFpQkF2QjZST1pLODF5VVR6WktvUEJHIiwiYnJhbmQiOm51bGwsImV4cCI6MTcwMTAxMTMwNiwiYmlydGhkYXkiOiIyMDA2LTEwLTEwIiwiYUlzU3Ryb25nIjp0cnVlLCJhVHlwZSI6IlVTRVJOQU1FX1BBU1NXT1JEIiwiYVRpbWUiOjE3MDAxMzg2MzYsInJvbGVzIjpbIlJPTEVfVEVBQ0hFUl9DQU5ESURBVEUiLCJST0xFX1RFQUNIRVJfQ0FORElEQVRFX0JBU0VfQUNDRVNTIiwiUk9MRV9UVENfVVNBR0UiLCJST0xFX1ZJTUJPWF9URUFDSEVSX1VTQUdFIiwiUk9MRV9URUFDSEVSIiwiUk9MRV9DUk0yX1RFQUNIRVJfQUNDRVNTIiwiUk9MRV9NQVRIX1RFQUNIRVIiLCJST0xFX01BVEhfQ09OVEVOVF9USEVNRV9WSUVXIl19.EdkosOgErkOZ0EXKjVlAtkyEWTCmwSawfl7gtegmjDbNtMAB6eA_0fHyH9IBgA2VWfrvrBdlnkhZGQK5KrQMdembGVXXPR9YOWwrNQYslRZ4n0aRWwUbkf3GWhlJCivWwy9pRKw_WBpGIpT318vYbWZJk8fFO3nyqjjZOR39aUTT08wyhSTb8K6--PkuDxezRF3JW_H7r4O77BjJOS-UqBhokEeXZTIE6WAl_1HWwZosLLaA_BCsHLUBZLs_dSWgbHcrX8-Wj9bu-d10fhM_JYAdgNV6y3JcNNPh33GUkBQYzGTLwaqFOLyaGkzhEMeTratdSUrnh_kO3Tfi2CTzn9EJwSO_3XL16yboQ50h_4PtWvGBnz9NBKsKckp713O2gajGyP566Kfeu5wszFYogN8NO6VS1zHtH_YdwxT8iRQOoGsPzd52wBi8bBy14zKulM_5AqY6THtG_2sVT9A05oRXPNeaA23or5DnM-IlgHPuaod1h_1aM34Xywy_N3jMx7qCqx9Yrp2ywov_JSKRV3NzeZyBLZjE4BSW97yVtAsYYQAq11SbKdaVW86nKaf5qJkiSAjfQHhK-DoSE7ZV3zyiHWqimedUdlcb6FVLY7ohG0RyJWE9r0tEbh-Iw_r2A2Z_OtPVLvcAp0PWdpU8ftkYybVoOAHrVWsVxzhd3Us; _ym_isad=1; _ym_visorc=b; _ga_SR964WVJCV=GS1.1.1701005671.11.1.1701005767.0.0.0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api-vimbox.skyeng.ru/api/v1/compilations/showcase",
+							"protocol": "https",
+							"host": [
+								"api-vimbox",
+								"skyeng",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"compilations",
+								"showcase"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
