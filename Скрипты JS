@@ -1,0 +1,5 @@
+Вытащить переменную из тела ответа при методе POST (создание):
+var jsonData = pm.response.json();
+var issueNumber = jsonData.имя_переменной; 
+pm.collectionVariables.set("назвать_переменную", issueNumber.toString());
+Вставить "название_переменной" в URL или в тело {{Variables}}
