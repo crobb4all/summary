@@ -1,38 +1,35 @@
 def one():
-    print("1") 
+    print(1, end = "") 
 
 def two():
-    print("2")
+    print(2, end = "")
 
 def three():
-    print("3")
+    print(3, end = "")
 
 def four():
-    print("4")
+    print(4, end = "")
 
 def five():
-    print("5")
+    print(5, end = "")
 
 def six():
-    print("6")
+    print(6, end = "")
 
 def seven():
-    print("7")
+    print(7, end = "")
 
 def eight():
-    print("8")
+    print(8, end = "")
 
 def nine():
-    print("9")
+    print(9, end = "")
 
-def null():
-    print("0")
+def nule():
+    print(0, end = "")
 
 
-eight(), eight(), null(), null(), five(), five(), five(), three(), five(), three(), five()
+eight(), eight(), nule(), nule(), five(), five(), five(), three(), five(), three(), five()
 
-numbers = [eight, eight, null, null, five, five, five, three, five, three, five]
-for line in numbers:
-    line()
 
 # 88005553535
