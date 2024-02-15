@@ -1,6 +1,6 @@
-age = 8
+age = 88
 
 if(age < 18):
     print("Ok")
 else:
-    print("poshel na huy")
+    print("No No No")
