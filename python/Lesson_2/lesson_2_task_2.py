@@ -2,7 +2,7 @@
 def is_year_leap():
     year = int(input("Введите год: "))
     y = year % 4
-    print('год', year,': ', y == 0)
+    print(f'год {year} : {y == 0}')
 
 is_year_leap()
 
