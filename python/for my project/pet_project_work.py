@@ -1,9 +1,16 @@
 # D=B^2 - 4ac
+def discriminante(a, b, c):
+    discr = b**2 - 4*a*c
+    print(discr)
 
-b = float(input("Input date: "))
-a = float(input("Input date: "))
-c = float(input("Input date: "))
+discriminante(4, 6, 8)
 
-D = (b * b) - (4 * a * c)
 
-print(D)
+
+# b = float(input("Input date: "))
+# a = float(input("Input date: "))
+# c = float(input("Input date: "))
+
+# D = (b * b) - (4 * a * c)
+
+# print(D)
