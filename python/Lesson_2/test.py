@@ -1,10 +1,7 @@
-#for x in range(0, 21):
-#   print('x =', x, 'x2 =', x*x)
+date = '12-12-2023'
 
-#user = ['Ivan', 'Semen', 'Otto', 'Lol', 'Arrrar', 'jopa', 'kall']
+year = date[6:]
+print(year)
 
-#l = len(user)
-
-#for i in range(0,2):
-#    print (user[i])
-
+for i in range(7):
+    print(i, end=' ')
