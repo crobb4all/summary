@@ -77,7 +77,7 @@
 Ознакомился с ТЗ. Провёл исследовательское тестирование веб-приложения. Составил документацию и тест-план. Далее составил тест-кейсы и чек-листы проверок для обоих версий приложения. Провёл тест-ран. Выявленные баги зафиксировал. Написал отчёт о тестировании и заключение.
 
 >  <a href="https://github.com/crobb4all/summary/tree/c8c7120596aed3539da62234135fb7dd6cbb8182/diplom">Ссылка на папку проекта в Git</a>
->  <a href="https://petrusev-qa-bugreport.atlassian.net/l/cp/bRrhvavD">Ссылка на Confluence проекта</a>
+>  <a href="https://drive.google.com/file/d/1X0DFrlnA-MyCVQozXcGoLHfWgnAw8NAn/view?usp=sharing">Ссылка на PDF файл с проектом</a>
 
  <p>Выводы:<p>
 <ol>
@@ -86,6 +86,9 @@
   <li>Продукт требует доработок.</li>
 </ol>
 
+<p>С моими знаниями языка Python вы можете ознакомится на примере выполненых работ в папках:<p>
+>  <a href="https://github.com/crobb4all/summary/tree/e4197a5282297d3998c06053736e1e6bb0d603de/python/Lesson_1">Ссылка на 1 часть практикума</a>
+>  <a href="https://github.com/crobb4all/summary/tree/e4197a5282297d3998c06053736e1e6bb0d603de/python/Lesson_2">Ссылка на 2 часть практикума</a>
 
 ## Contact Information
 ###### Email: Crobb4all@gmail.com
