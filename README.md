@@ -2,9 +2,10 @@
   <img src="https://media.giphy.com/media/owaW2hfLv4F7wyFeyM/giphy.gif" width="100"/>
 </div>
 
-# Portfolio Petrusev Georgii for QA Engineer
+# Portfolio Georgii Petrusev for QA Engineer
 ## About
 Меня зовут ``Георгий Петрусев``, я ``QA Engineer`` с опытом работы в различных областях информационных технологий. В этом репозитории вы сможете найти мои работы, которые я выполнял во время обучения и практики (тз, скрипты, postman коллекции и другое), а так же посмотреть мои самостоятельные работы.
+My name is ``Georgy Petrusev``, I am a ``QA Engineer`` with experience in various areas of information technology. In this repository you can find my works, which I did during my training and practice (Tasks, scripts, postman collections and other), and well as see my independent works.
 
 ## Skills and Tools:
 ``MySQL``, ``PostgreSQL``, ``SQL Server``, ``Qase.io``, ``Sitechko``, ``Jira``, ``Confluence``, ``Notion``, ``Miro``, ``Postman``, ``REST API``, ``SoapUI``, ``cURL``, ``PowerShell``, ``Mockoon``, ``Chrome DevTools``, ``JMeter``, ``Python``, ``Selenium``, ``VirlualBox``, ``Docker``.
