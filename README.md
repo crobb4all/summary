@@ -4,7 +4,7 @@
 
 # Portfolio Petrusev Georgii for QA Engineer
 ## About
-Меня зовут ``Петрусев Георгий``, я ``Junior QA Engineer`` с опытом работы в различных областях информационных технологий. В этом репозитории вы сможете найти некоторые мои работы которые я выполнял во время обучения и практики, тз, скрипты, postman коллекции и другое.
+Меня зовут ``Георгий Петрусев``, я ``QA Engineer`` с опытом работы в различных областях информационных технологий. В этом репозитории вы сможете найти некоторые мои работы которые я выполнял во время обучения и практики, тз, скрипты, postman коллекции и другое.
 
 ## Skills and Tools:
 ``MySQL``, ``PostgreSQL``, ``SQL Server``, ``Qase.io``, ``Sitechko``, ``Jira``, ``Confluence``, ``Notion``, ``Miro``, ``Postman``, ``REST API``, ``SoapUI``, ``cURL``, ``PowerShell``, ``Mockoon``, ``Chrome DevTools``, ``JMeter``, ``Python``, ``Selenium``, ``VirlualBox``, ``Docker``.
