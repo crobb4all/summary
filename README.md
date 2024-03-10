@@ -92,4 +92,5 @@
 
 ## Contact Information
 ###### Email: Crobb4all@gmail.com
-###### LinkedIn: www.linkedin.com/in/georgiy-petrusev-751b8b23b
+###### LinkedIn: www.linkedin.com/in/georgiy-petrusev
+###### Telegram: t.me/Crobb
