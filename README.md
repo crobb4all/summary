@@ -2,9 +2,12 @@
   <img src="https://media.giphy.com/media/owaW2hfLv4F7wyFeyM/giphy.gif" width="100"/>
 </div>
 
-# Portfolio Petrusev Georgii for QA Engineer
+# Portfolio Georgii Petrusev for QA Engineer
 ## About
-Меня зовут ``Петрусев Георгий``, я ``Junior QA Engineer`` с опытом работы в различных областях информационных технологий. В этом репозитории вы сможете найти некоторые мои работы которые я выполнял во время обучения и практики, тз, скрипты, postman коллекции и другое.
+Меня зовут ``Георгий Петрусев``, я ``QA Engineer`` с опытом работы в различных областях информационных технологий. В этом репозитории вы сможете найти мои работы, которые я выполнял во время обучения и практики (тз, скрипты, postman коллекции и другое), а так же посмотреть мои самостоятельные работы.
+<p><p>
+  
+My name is ``Georgy Petrusev``, I am a ``QA Engineer`` with experience in various areas of information technology. In this repository you can find my works, which I did during my training and practice (Tasks, scripts, postman collections and other), and well as see my independent works.
 
 ## Skills and Tools:
 ``MySQL``, ``PostgreSQL``, ``SQL Server``, ``Qase.io``, ``Sitechko``, ``Jira``, ``Confluence``, ``Notion``, ``Miro``, ``Postman``, ``REST API``, ``SoapUI``, ``cURL``, ``PowerShell``, ``Mockoon``, ``Chrome DevTools``, ``JMeter``, ``Python``, ``Selenium``, ``VirlualBox``, ``Docker``.
@@ -86,6 +89,7 @@
   <li>Продукт требует доработок.</li>
 </ol>
 
+## Python
 <p>С моими знаниями языка Python вы можете ознакомится на примере выполненых работ в папках:<p>
 >  <a href="https://github.com/crobb4all/summary/tree/e4197a5282297d3998c06053736e1e6bb0d603de/python/Lesson_1">Ссылка на 1 часть практикума</a>
 >  <a href="https://github.com/crobb4all/summary/tree/e4197a5282297d3998c06053736e1e6bb0d603de/python/Lesson_2">Ссылка на 2 часть практикума</a>
