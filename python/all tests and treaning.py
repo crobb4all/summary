@@ -1,16 +1,31 @@
-def suka():
-    age = int(input())
+from selenium import webdriver
+from bs4 import BeautifulSoup
 
-    print (age < 18)
+# URL of the web page you want to scrape
+url = 'https://www.gismeteo.ru/weather-batumi-5275/'
 
-    if(age < 18):
-        print("Ok")
-    elif(age > 50):
-        print('gg dead')
-    else:
-        print("No No No")
+# Initialize Chrome WebDriver
+driver = webdriver.Chrome()
 
+# Open the web page
+driver.get(url)
 
-suka()
+# Get the page source
+page_source = driver.page_source
 
-print ("End Point")
+# Close the WebDriver
+driver.quit()
+
+# Parse the page source using BeautifulSoup
+soup = BeautifulSoup(page_source, 'html.parser')
+
+# Now you can use BeautifulSoup to navigate and extract data from the page
+# For example, find all links on the page
+specific_element = soup.find('div', class_='page-title').text
+
+date = soup.find('div', class_='date').text
+
+# sign = soup.find('span', class_='sign').text
+
+temperature = soup.find('div', class_='weather-value').text
+print(specific_element, date, temperature)
