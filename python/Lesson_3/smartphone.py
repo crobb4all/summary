@@ -1,6 +1,5 @@
 class Smartphone:
-    
-    
+
     def __init__(self, phone_brand, phone_model, phone_number):
         self.ph_brand = phone_brand
         self.ph_model = phone_model
