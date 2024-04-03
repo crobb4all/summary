@@ -13,10 +13,10 @@ My name is ``Georgy Petrusev``, I am a ``QA Engineer`` with experience in variou
 ``MySQL``, ``PostgreSQL``, ``SQL Server``, ``Qase.io``, ``Sitechko``, ``Jira``, ``Confluence``, ``Notion``, ``Miro``, ``Postman``, ``REST API``, ``SoapUI``, ``cURL``, ``PowerShell``, ``Mockoon``, ``Chrome DevTools``, ``JMeter``, ``Python``, ``Selenium``, ``VirlualBox``, ``Docker``.
 
 ## Projects & Work
-### Выполненное ТЗ на позицию QA Engineer
+### 1. Выполненное ТЗ на позицию QA Engineer
 >  <a href="https://docs.google.com/document/d/1Xw9DOVhD6KpelhFUTMSqfEoLIbi_YdEHDFHgODWENlg/edit?usp=sharing">Ссылка на выполненное ТЗ в Google Dock</a>
 
-### Проект: Тест веб-приложения для учителей
+### 2. Тест веб-приложения для учителей
 <p>Протестировать новый функционал рездела "Календать" в веб-приложение для учителей Skyeng.<p>
 <ol>
   <li>Ознакомиться с Документацией и Требованиями</li>
@@ -42,7 +42,7 @@ My name is ``Georgy Petrusev``, I am a ``QA Engineer`` with experience in variou
   <li>Тестировщики нужны на проекте, т.к. многие баги могут обойти поле зрения разработчиков и автотестов</li>
 </ol>
 
-### Тестовое задание: Протестировать функционал веб-приложения
+### 3. Тестирование веб-приложения
 <p>Протестировать веб-приложение по обмену Токенов на Коины<p>
 <ol>
   <li>Задача №1 - Протестировать приложение.</li>
@@ -59,7 +59,7 @@ My name is ``Georgy Petrusev``, I am a ``QA Engineer`` with experience in variou
   <li>Приложени не готово к выпуску</li>
 </ol>
 
-### Тестирование нового функционала видеопрактики для web и mobile приложения
+### 4. Тестирование нового функционала видеопрактики для web и mobile приложения
 <p>Задача: Протестировать функционал с “Видеопрактикой” и "веб-комнатой" для web и mobile приложения Skyeng<p>
 <ol>
   <li>Составить тест-план</li>
