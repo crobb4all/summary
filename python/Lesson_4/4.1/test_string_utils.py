@@ -1,4 +1,5 @@
 import pytest
+import re
 from string_utils import StringUtils
 
 atringutals = StringUtils()
@@ -96,6 +97,7 @@ def test_contains_negative(string, symbol, result):
         res = stringutals.contains(string, symbol)
         assert res == result
 
+
 # Удаление подстрок из строки (Позитивный)
 @pytest.mark.parametrize('string, symbol, result', 
                         [('text and, next-text', ' and', 'text, next-text'),
@@ -108,7 +110,7 @@ def test_delete_symbol_positive(string, symbol, result):
     res = stringutals.delete_symbol(string, symbol)
     assert res == result
 
-# Удаление подстрок из строки (Негативный). Тут я сделал тест который исключает ошибки Типа и Атрибута.
+# Удаление подстрок из строки (Негативный). 
 @pytest.mark.parametrize('string, symbol, result', [
                         (None, "k", AttributeError),
                         ("SkyPro", None, TypeError),
@@ -119,6 +121,8 @@ def test_delete_symbol_positive(string, symbol, result):
                         ("SkyPro", 123, TypeError)])
 def test_delete_symbol_negative(string, symbol, result):
     stringutals = StringUtils()
+    # Далее я сделал добавил исключения ошибок Типа и Атрибута. 
+    # Т.к. их появление является корректным результатом.
     if result == TypeError:
         with pytest.raises(TypeError):
             stringutals.delete_symbol(string, symbol)
@@ -128,3 +132,31 @@ def test_delete_symbol_negative(string, symbol, result):
     else:
         res = stringutals.delete_symbol(string, symbol)
         assert res == result
+
+# Второй вариант негативных проверок с маркеровкой при параметризации
+# На мой взгляд этот тест будет более корректно отображать суть проверок
+@pytest.mark.parametrize('string, symbol, result', [
+                        ("SkyPro", "k", "SyPro"),
+                        ("SkyPro", "Pro", "Sky"),
+            pytest.param(None, "k", None, marks=pytest.mark.xfail(reason="string is None")),
+            pytest.param("SkyPro", None, "SkyPro", marks=pytest.mark.xfail(reason="symbol is None")),
+            pytest.param(123, "k", "SyPro", marks=pytest.mark.xfail(reason="string is not a string")),
+            pytest.param("SkyPro", 123, "SkyPro", marks=pytest.mark.xfail(reason="symbol is not a string"))
+])
+def test_delete_symbol_negative_v2(string, symbol, result):
+    stringutals = StringUtils()
+    res = stringutals.delete_symbol(string, symbol)
+    assert res == result
+
+
+# Возвращает `True`, если строка начинается с заданного символа и `False` - если нет (Позитивные)
+@pytest.mark.parametrize('string, symbol, result', [
+                        ('Text', 'T', True),
+                        ('Text', 't', False),
+                        ('123', '12', True),
+                        (' with space', ' ', True)
+    ])
+def test_starts_with_positive(string, symbol, result):
+    stringutals = StringUtils()
+    res = stringutals.starts_with(string, symbol)
+    assert res == result
